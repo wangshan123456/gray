@@ -1,0 +1,72 @@
+2020-06-17 11:03:27,583 INFO notifyConnectTimeout:200
+
+2020-06-17 11:03:27,588 INFO notifySocketTimeout:8000
+
+2020-06-17 11:03:27,588 INFO isHealthCheck:true
+
+2020-06-17 11:03:27,588 INFO maxHealthCheckFailCount:12
+
+2020-06-17 11:03:27,588 INFO maxContent:10485760
+
+2020-06-17 11:03:28,285 INFO Schema 'NACOS' already exists.
+
+2020-06-17 11:03:28,343 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,405 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,432 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,445 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,457 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,471 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,482 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,493 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,505 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,521 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,536 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,547 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,564 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,575 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,586 INFO Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2020-06-17 11:03:28,698 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL200604094343020' defined on 'USERS'.
+
+2020-06-17 11:03:28,705 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2020-06-17 11:03:30,088 INFO ServerListService address-server port:8080
+
+2020-06-17 11:03:30,089 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2020-06-17 11:03:30,094 WARN [serverlist] updated to [192.168.154.1:8848]
+
+2020-06-17 11:03:30,168 WARN DumpService start
+
+2020-06-17 11:03:30,171 INFO start clear all config-info.
+
+2020-06-17 11:03:30,177 WARN clear all config-info failed.
+
+2020-06-17 11:03:30,178 WARN clear all config-info-tenant failed.
+
+2020-06-17 11:03:30,249 INFO start clear all config-info-beta.
+
+2020-06-17 11:03:30,250 WARN clear all config-info-beta failed.
+
+2020-06-17 11:03:30,251 WARN clear all config-info-beta-tenant failed.
+
+2020-06-17 11:03:30,269 INFO start clear all config-info-tag.
+
+2020-06-17 11:03:30,269 WARN clear all config-info-tag failed.
+
+2020-06-17 11:03:30,270 WARN clear all config-info-tag-tenant failed.
+

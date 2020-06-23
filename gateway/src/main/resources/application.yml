@@ -1,0 +1,36 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+        - id: serverTest
+          uri: lb://server
+          predicates:
+            - Path=/server/**
+          filters:
+            - StripPrefix=1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      group: test-server
+      version: 1.0.0
+      region: regionA
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+nacos:
+  server-addr: localhost:8848

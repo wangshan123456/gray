@@ -1,0 +1,39 @@
+server:
+  port: 13001
+
+spring:
+  application:
+    name: gray-console
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#info:
+#  artifactId: '@project.artifactId@'
+#  name: '@project.name@'
+#  description: '@project.description@'
+#  version: '@project.version@'
+#  gray:
+#    group: ${eureka.instance.metadataMap.group}
+#    version: ${eureka.instance.metadataMap.version}
+#    region: ${eureka.instance.metadataMap.region}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  config: classpath:logback-spring.xml
+  path: logs
+  level:
+    root: info

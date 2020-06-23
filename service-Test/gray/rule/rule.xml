@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule>
+    <discovery>
+        <!--版本配置-->
+        <version>
+            <service consumer-service-name="gateway" provider-service-name="serverTest" consumer-version-value="1.0.0" provider-version-value="1.0.0,1.0.1"/>
+        </version>
+        <!--权重配置-->
+        <weight>
+            <!--版本权重。1.0.0-90；1.0.1-10-->
+            <!--<version provider-weight-value="1.0.0=50;1.0.1=50"/>-->
+            <!--区域权重。服务器A-95；服务器B-5-->
+            <region provider-weight-value="regionA=50;regionB=50"/>
+        </weight>
+    </discovery>
+</rule>

@@ -1,0 +1,26 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: server-feign
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      group: test-server
+      version: 1.0.1
+      region: regionB
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+nacos:
+  server-addr: localhost:8848
+
+info:
+  serverName: server-feign-1.0.1

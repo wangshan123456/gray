@@ -1,0 +1,70 @@
+2020-06-22 19:38:49,285 INFO Starting Nacos v1.2.1 on DESKTOP-ELO47CN with PID 8168 (G:\视频教程\灰度发布demo\service-Test\gray\nacos\target\nacos-server.jar started by 山高人为峰 in G:\视频教程\灰度发布demo\service-Test\gray\nacos\bin)
+
+2020-06-22 19:38:49,364 INFO The following profiles are active: standalone
+
+2020-06-22 19:38:51,679 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$47895b0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-22 19:38:51,794 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-22 19:38:51,794 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4e5ed836' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-22 19:38:51,794 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$6c5dfdbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-22 19:38:51,810 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-22 19:38:52,795 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-06-22 19:38:52,833 INFO Starting service [Tomcat]
+
+2020-06-22 19:38:52,833 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-22 19:38:52,845 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\linux_client\xshell6\;D:\linux_client\xftp6\;D:\oracle\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\TortoiseSVN\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;D:\jdk\bin;D:\jdk\jre\bin;D:\maven\apache-maven-3.5.4\bin;E:\android-sdk;E:\android-sdk\platform-tools\platform-tools\;D:\gradle-4.10.2\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\山高人为峰\AppData\Local\Microsoft\WindowsApps;D:\linux-client;C:\Users\山高人为峰\AppData\Local\BypassRuntm;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;.]
+
+2020-06-22 19:38:52,920 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-22 19:38:52,920 INFO Root WebApplicationContext: initialization completed in 3514 ms
+
+2020-06-22 19:38:59,380 INFO Reflections took 41 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-22 19:38:59,440 INFO Reflections took 10 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-22 19:38:59,450 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-22 19:39:00,334 INFO Use Mysql as the driver
+
+2020-06-22 19:39:00,967 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-22 19:39:01,167 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-22 19:39:01,488 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-22 19:39:01,528 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78a287ed, org.springframework.security.web.context.SecurityContextPersistenceFilter@73db4768, org.springframework.security.web.header.HeaderWriterFilter@53f48368, org.springframework.security.web.csrf.CsrfFilter@30f5a68a, org.springframework.security.web.authentication.logout.LogoutFilter@7a8fa663, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a8c1f44, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50fe837a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@546ccad7, org.springframework.security.web.session.SessionManagementFilter@f0e995e, org.springframework.security.web.access.ExceptionTranslationFilter@4f2c9ba6]
+
+2020-06-22 19:39:01,627 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-22 19:39:01,659 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-22 19:39:01,760 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-06-22 19:39:01,770 INFO Started Nacos in 13.864 seconds (JVM running for 15.439)
+
+2020-06-22 19:39:01,770 INFO Nacos logs files: G:\视频教程\灰度发布demo\service-Test\gray\nacos\logs\
+
+2020-06-22 19:39:01,770 INFO Nacos conf files: G:\视频教程\灰度发布demo\service-Test\gray\nacos\conf\
+
+2020-06-22 19:39:01,770 INFO Nacos data files: G:\视频教程\灰度发布demo\service-Test\gray\nacos\data\
+
+2020-06-22 19:39:01,770 INFO Nacos started successfully in stand alone mode.
+
+2020-06-22 19:39:02,062 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-06-22 19:39:02,062 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-06-22 19:39:02,077 INFO Completed initialization in 15 ms
+
+2020-06-22 19:49:00,037 INFO [capacityManagement] start correct usage
+
+2020-06-22 19:49:00,053 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-06-22 19:49:00,338 WARN clearConfigHistory start
+
